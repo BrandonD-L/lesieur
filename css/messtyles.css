@@ -51,8 +51,94 @@ h3 {
   font-weight: 400;
 
   margin: 10px, 0;
+
+  text-align: center;
 }
 
 /*---------------------------------------------------------------------------
 COMPONENTS
 ----------------------------------------------------------------------------*/
+
+/*wrapper*/
+.wrapper {
+  max-width: 1080px;
+
+  margin: 0 auto;
+}
+
+/*header*/
+
+.header {
+  background-color: #f26c25;
+
+  color: white;
+
+  padding: 10px 0 10px 0;
+}
+
+.header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+
+  list-style-type: none;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+/*hero*/
+
+.hero {
+  padding: 80px 0;
+
+  background-color: #eee;
+}
+
+/*titre-transport*/
+
+.titre-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #eee;
+
+  padding: 20px;
+
+  margin-bottom: 60px;
+}
+
+.transport {
+  padding: 80px 0;
+}
+
+.conteneur-transport {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 60px;
+}
+
+.transport p {
+  text-align: center;
+
+  margin-top: 5px;
+}
+
+/*footer*/
